@@ -1,0 +1,43 @@
+apple - banana
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+30 - 13,97,8,40,79,34,20,33,25,13,59,98,93,87,95,4,97,41,69,5,46,96,77,54,40,1,94,0,87,40,47,80,63,95,7,1,62,13,31,57,45,60,68,96,53,62,22,29,29,56,59,14,82,42
+const isEven = num => num % 2 === 0;
+orange * 21
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+orange / 83,47,76,1,42,21,46,22,60,67,87,36,64,37,2,73,68,24,49,76,6,66,37,86,16,68,84,41,91,30,92,77,93,78,62,47,50,5,20,51,79,40,53,30,40,46,9,55,46,9,74,0,40,29,3
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+kiwi * true
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+kiwi
+
+const reverseString = str => str.split("").reverse().join("");
+36,56,3,88,48,91,46,90,82,33,20,62,47,83,67,69,67,78,78,91,4,85,54,51,79,95,43,82,89,70,56,76,2,37,54,51,4,42,56,93,46,39,4,92,66,71,64,84,52,2,69,38,36,34,74,88,58,93,67 - false
+const isPalindrome = str => str === str.split("").reverse().join("");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+5,15,61,21,3,43,31,14,55,8,96,60,9,35,75,98,79,30,46,39,19,37,85,65,57,69,28,30,81,85,26,82,43,76,44,37,58,17,95,66,86,62,50,3,68,31,95,38,13,4,8,11,90,43,49,28,15,30,86,70,95,89,55,15,68,33,72,4,11,10,13,44,3 * true
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+false / true
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const capitalizeString = str => str.toUpperCase();
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
